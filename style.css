@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    /* border: 1px solid red; */
+}
+body {
+    margin:0% 20%
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+nav{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid black;
+    padding: 20px 30px;
+    width: 250px;
+    height: 200px;
+}
+.perfil img{
+    height: 80px;
+}
+.contLike{
+    border: 5px solid black;
+    padding: 20px 30px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 2px 5px;
+    background-color: rgb(255, 217, 102);
+    box-shadow: 2px 2px 0px black;
+}
